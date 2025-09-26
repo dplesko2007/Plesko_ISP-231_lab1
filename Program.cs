@@ -134,7 +134,7 @@ namespace Program
             //8
             Console.WriteLine("temperature?");
             int temperature = int.Parse(Console.ReadLine());
-            Console.WriteLine(((temperature * 9 / 5) + 32), "°F");
+            Console.WriteLine(((temperature * 9 / 5) + 32));
         }
     }
 }
