@@ -91,6 +91,50 @@ namespace Program
             //Console.WriteLine("Я изучаю C#");
             //Console.WriteLine("Goodbye World...");
             //Console.WriteLine(36.6);
+
+            //Самостоятельные задания
+            //1
+            string FavGame = "Genshin Impact";
+            int FavNumber = 23;
+            char FavChar = 'M';
+            Console.WriteLine($"Моя любимая игра - {FavGame}, мое любимое число - {FavNumber}, значение число пи - {Math.PI}, моя любимая буква алфавита - {FavChar}.");
+            //2
+            Console.WriteLine('i');
+            Console.WriteLine("need");
+            Console.WriteLine("more");
+            Console.WriteLine("power!");
+            //3
+            Console.WriteLine("Hello there");
+            //4
+            int Monitor = 5000;
+            int Sistemnik = 35000;
+            int Klaviatura = 2000;
+            int Mouse = 500;
+            Console.WriteLine((Monitor + Sistemnik + Klaviatura + Mouse) * 3);
+            //5
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine(3 * (a + b) ^ 3 + 275 * b ^ 2 - 127 * a - 41);
+            //6
+            Console.WriteLine("name?");
+            string name = (Console.ReadLine());
+            Console.WriteLine("age?");
+            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Привет, {name}!");
+            Console.WriteLine($"Сейчас тебе {age} лет.");
+            Console.WriteLine($"В следующем году тебе будет {age + 1}");
+            //7
+            Console.WriteLine("name?");
+            string namee = (Console.ReadLine());
+            Console.WriteLine("age?");
+            int agee = int.Parse(Console.ReadLine());
+            Console.WriteLine("city?");
+            string city = (Console.ReadLine());
+            Console.WriteLine($"Привет, {namee}! Тебе {agee} лет и ты живёшь в городе {city}.");
+            //8
+            Console.WriteLine("temperature?");
+            int temperature = int.Parse(Console.ReadLine());
+            Console.WriteLine(((temperature * 9 / 5) + 32), "°F");
         }
     }
 }
